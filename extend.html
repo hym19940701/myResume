@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Title</title>
+</head>
+<body>
+<script>
+  var Parent=function(){
+      this.name='666'
+  }
+  Parent.prototype={
+      say:function(){
+          alert(this.name)
+      }
+  }
+  var Child=function(){
+      Parent.call(this)
+    this.age='22'
+  }
+
+  var a=new Parent()
+  a.say()
+  var b=new Child()
+  console.log(b.name)
+</script>
+</body>
+</html>

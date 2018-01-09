@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -18,7 +13,7 @@ body a{
 	text-decoration:none;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;	
+	margin:0;
 	font-family: 'Overlock', cursive;
 }
 p{
@@ -138,7 +133,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 	padding:6em 0;
 }
 h3.title {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     color: #008B8B;
     border-bottom: 4px double rgba(247, 197, 106, 0.35);
@@ -146,8 +141,8 @@ h3.title {
 	margin-bottom: 1em;
 }
 p {
-    font-size: 1em;
-    color: #999;
+    font-size: 1.5em;
+    color: #666;
     line-height: 1.8em;
 }
 .about-right {
@@ -281,7 +276,7 @@ p {
     margin-bottom: 2.2em;
     background-color: #2F2C06;
 }
-.progress-bar { 
+.progress-bar {
     background-color: #766E04;
 }
 .bar-grids h6 {
@@ -296,7 +291,7 @@ p {
 /*--//skills--*/
 /*--portfolio--*/
 /*--SAP--*/
-ul.resp-tabs-list {  
+ul.resp-tabs-list {
 /*-- w3layouts --*/
 background: #F7E612;
 }
@@ -354,7 +349,7 @@ background: #F7E612;
 }
 .resp-tabs-container {
 	padding: 0px;
-	clear: left;	
+	clear: left;
 }
 h2.resp-accordion {
 	cursor: pointer;
@@ -424,7 +419,7 @@ h2.resp-accordion {
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 	-o-transform: translate3d(0,0,0);
-	-ms-transform: translate3d(0,0,0);	
+	-ms-transform: translate3d(0,0,0);
 }
 .grid .figcaption {
 	text-align: left;
@@ -590,14 +585,14 @@ h2.resp-accordion {
 }
 
 :-moz-placeholder { /* Firefox 18- */
-	color:#fff !important; 
+	color:#fff !important;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
 	color:#fff !important;
 }
 
-:-ms-input-placeholder {  
+:-ms-input-placeholder {
 	color:#fff !important;
 }
 /*--//contact--*/
@@ -727,10 +722,10 @@ h3.title {
     margin-bottom: 0.6em;
 }
 .about-left {
-    float: left;
-    width: 65%;
+  width: 100%;
 	padding-left: 0;
 }
+
 .about-right {
     float: right;
     width: 35%;
